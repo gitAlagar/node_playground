@@ -1,0 +1,36 @@
+{
+  "name": "node_playground",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "ts-node-dev --respawn --transpile-only src/path.ts"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitAlagar/node_playground.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gitAlagar/node_playground/issues"
+  },
+  "homepage": "https://github.com/gitAlagar/node_playground#readme",
+  "devDependencies": {
+    "@types/mysql": "^2.15.27",
+    "@types/node": "^24.10.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "mysql": "^2.18.1",
+    "mysql2": "^3.15.3"
+  }
+}
